@@ -9,10 +9,10 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 
-
 section{
 	text-align: center;
 }
+
 .col-sea img{
 	width: 100%;
 }
@@ -33,9 +33,27 @@ section{
 }
 
 
+
+
 .col-md-4{
 	margin-bottom: 20px;
 }
+/*因為html18~19<div class="col-md-4 menu">首頁</div>，所以css中.menu指定底距0必須寫在.col-md-4指定底距20之後，要不然沒反應*/
+.title{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: #007DAA;
+	color: #fff;
+}
+
+
+
 
 
 .box{
